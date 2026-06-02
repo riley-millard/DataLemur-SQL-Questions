@@ -27,5 +27,16 @@ In other words, group the users by the number of tweets they posted in 2022 and 
 
 ## My Solution
 
+First, I needed to find how many tweets were posted by each user in 2022:
+
+<img width="901" height="643" alt="image" src="https://github.com/user-attachments/assets/5a331c49-7c6b-4834-8127-7e16f9e301d4" />
+
+Based on this data, I can see that in 2022, user 111 posted 2 tweets, but 148 and 254 only posted one each.
+
+Now to get the final result for this question, I use the tweet_count_per_person as the bucket for counting the number of users by tweet volume.
+
+This gives us the final output below:
+
+<img width="933" height="654" alt="image" src="https://github.com/user-attachments/assets/ad425019-6f6f-4cab-a7ce-b2021f29862b" />
 
 
